@@ -1,0 +1,44 @@
+MPLINK 5.00, LINKER
+Linker Map File - Created Thu Jul 17 23:10:12 2014
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000062
+                   .cinit    romdata   0x000031    program   0x000004
+                   .org_1       code   0x0003ff    program   0x000002
+.config_2007_BUILD/DEFAULT/PRODUCTION/SEQUENC       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000032      
+                            0x0003ff    0x0003ff      
+                            0x002007    0x002007      
+            53 out of 1158 program addresses used, program memory utilization is 4%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    Delay   0x000028    program     static C:\Projects\PIC\Testing12F629\Testing12F629.X\sequence_leds.asm
+               Delay_loop   0x00002a    program     static C:\Projects\PIC\Testing12F629\Testing12F629.X\sequence_leds.asm
+                      LED   0x00000f    program     static C:\Projects\PIC\Testing12F629\Testing12F629.X\sequence_leds.asm
+                    SetUp   0x000000    program     static C:\Projects\PIC\Testing12F629\Testing12F629.X\sequence_leds.asm
+                    Start   0x000000    program     static C:\Projects\PIC\Testing12F629\Testing12F629.X\sequence_leds.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    SetUp   0x000000    program     static C:\Projects\PIC\Testing12F629\Testing12F629.X\sequence_leds.asm
+                    Start   0x000000    program     static C:\Projects\PIC\Testing12F629\Testing12F629.X\sequence_leds.asm
+                      LED   0x00000f    program     static C:\Projects\PIC\Testing12F629\Testing12F629.X\sequence_leds.asm
+                    Delay   0x000028    program     static C:\Projects\PIC\Testing12F629\Testing12F629.X\sequence_leds.asm
+               Delay_loop   0x00002a    program     static C:\Projects\PIC\Testing12F629\Testing12F629.X\sequence_leds.asm
+
+
